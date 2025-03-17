@@ -75,3 +75,6 @@ ros2 run --prefix 'gdbserver localhost:3000' cpp_pubsub talker
 - program - Измените [build-path-executable] на ваш исполняемый файл сборки. Вы можете найти этот путь в консоли при запуске сервера.
 
 ### используйте кнопки и панели VSCode для корректной отладки кода.
+[такой](cpp_pubsub) проект должен получиться. Запуск через конфигурацю "C++ Debugger"
+![alt text](images/image8.png)
+![alt text](images/image9.png)

@@ -1,0 +1,60 @@
+[0.039s] Invoking command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub
+[0.773s] -- The C compiler identification is GNU 13.3.0
+[1.323s] -- The CXX compiler identification is GNU 13.3.0
+[1.458s] -- Detecting C compiler ABI info
+[1.913s] -- Detecting C compiler ABI info - done
+[1.963s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.964s] -- Detecting C compile features
+[1.970s] -- Detecting C compile features - done
+[2.016s] -- Detecting CXX compiler ABI info
+[2.461s] -- Detecting CXX compiler ABI info - done
+[2.521s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.527s] -- Detecting CXX compile features
+[2.534s] -- Detecting CXX compile features - done
+[2.644s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.284s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.668s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.949s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.266s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.390s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.667s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.226s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.248s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.735s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.857s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.995s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.596s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[7.091s] -- Configuring done (6.9s)
+[7.139s] -- Generating done (0.0s)
+[7.168s] -- Build files have been written to: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/build/cpp_pubsub
+[7.216s] Invoked command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub
+[7.219s] Invoking command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[7.415s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[7.446s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[39.554s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[40.207s] [ 75%] Built target talker
+[57.598s] [100%] [32m[1mLinking CXX executable listener[0m
+[58.274s] [100%] Built target listener
+[58.318s] Invoked command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[58.372s] Invoking command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/build/cpp_pubsub
+[58.413s] -- Install configuration: "RelWithDebInfo"
+[58.415s] -- Execute custom install script
+[58.418s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker
+[58.449s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener
+[58.510s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[58.556s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[58.583s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[58.619s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[58.643s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[58.693s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[58.724s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[58.766s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[58.794s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[58.817s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[58.844s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[58.889s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[58.917s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[58.946s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[58.978s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[59.011s] Invoked command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros-user/ros2_jazzy/src/ros2/cpp_pubsub/build/cpp_pubsub
