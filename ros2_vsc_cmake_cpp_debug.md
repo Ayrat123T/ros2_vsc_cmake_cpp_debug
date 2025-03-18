@@ -27,6 +27,8 @@ sudo apt install code
 ![alt text](images/image4.png)
 ### cmake
 ![alt text](images/image5.png)
+### Remote Development
+![alt text](images/image10.png)
 ## 4. Настройка отладки согласно [инструкции](https://gist.github.com/JADC362/a4425c2d05cdaadaaa71b697b674425f):
 ### 4.1. устанавливаем [gdbserver](https://habr.com/ru/companies/rainbow/articles/251053/):
 ```bash
