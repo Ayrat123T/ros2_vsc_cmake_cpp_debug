@@ -1,0 +1,72 @@
+[0.045s] Invoking command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros-user/ros2_jazzy/src/ros2/cpp_clock -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock
+[0.333s] -- The C compiler identification is GNU 13.3.0
+[0.576s] -- The CXX compiler identification is GNU 13.3.0
+[0.701s] -- Detecting C compiler ABI info
+[1.006s] -- Detecting C compiler ABI info - done
+[1.062s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.063s] -- Detecting C compile features
+[1.064s] -- Detecting C compile features - done
+[1.105s] -- Detecting CXX compiler ABI info
+[1.416s] -- Detecting CXX compiler ABI info - done
+[1.441s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.443s] -- Detecting CXX compile features
+[1.443s] -- Detecting CXX compile features - done
+[1.453s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.007s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.262s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.446s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.682s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.732s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.906s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.315s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.337s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.689s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.792s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.908s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.366s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.453s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.018s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.021s] -- Configured cppcheck include dirs: 
+[5.022s] -- Configured cppcheck exclude dirs and/or files: 
+[5.032s] -- Added test 'lint_cmake' to check CMake code style
+[5.067s] -- Added test 'uncrustify' to check C / C++ code style
+[5.068s] -- Configured uncrustify additional arguments: 
+[5.076s] -- Added test 'xmllint' to check XML markup files
+[5.085s] -- Configuring done (5.0s)
+[5.150s] -- Generating done (0.0s)
+[5.173s] -- Build files have been written to: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock
+[5.212s] Invoked command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros-user/ros2_jazzy/src/ros2/cpp_clock -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock
+[5.219s] Invoking command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock -- -j4 -l4
+[5.472s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[5.502s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[16.348s] [01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/src/subscriber_lambda_function.cpp:[m[K In lambda function:
+[16.348s] [01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/src/subscriber_lambda_function.cpp:28:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.348s]    28 |       [this]([01;35m[Kstd_msgs::msg::String::UniquePtr msg[m[K) -> void {
+[16.349s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[34.150s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[35.045s] [ 75%] Built target talker
+[52.357s] [100%] [32m[1mLinking CXX executable listener[0m
+[52.966s] [100%] Built target listener
+[53.011s] Invoked command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock -- -j4 -l4
+[53.048s] Invoking command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock
+[53.086s] -- Install configuration: "RelWithDebInfo"
+[53.089s] -- Execute custom install script
+[53.092s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/lib/cpp_clock/talker
+[53.117s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/lib/cpp_clock/listener
+[53.135s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/ament_index/resource_index/package_run_dependencies/cpp_clock
+[53.166s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/ament_index/resource_index/parent_prefix_path/cpp_clock
+[53.191s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/ament_prefix_path.sh
+[53.238s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/ament_prefix_path.dsv
+[53.276s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/path.sh
+[53.309s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/path.dsv
+[53.349s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.bash
+[53.363s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.sh
+[53.386s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.zsh
+[53.431s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.dsv
+[53.450s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/package.dsv
+[53.474s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/ament_index/resource_index/packages/cpp_clock
+[53.502s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/cmake/cpp_clockConfig.cmake
+[53.541s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/cmake/cpp_clockConfig-version.cmake
+[53.580s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/package.xml
+[53.636s] Invoked command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock

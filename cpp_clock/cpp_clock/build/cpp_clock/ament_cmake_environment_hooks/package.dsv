@@ -1,0 +1,4 @@
+source;share/cpp_clock/local_setup.bash
+source;share/cpp_clock/local_setup.dsv
+source;share/cpp_clock/local_setup.sh
+source;share/cpp_clock/local_setup.zsh

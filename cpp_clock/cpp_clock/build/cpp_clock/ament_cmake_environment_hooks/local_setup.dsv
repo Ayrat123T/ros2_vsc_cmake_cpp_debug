@@ -1,0 +1,2 @@
+source;share/cpp_clock/environment/ament_prefix_path.sh
+source;share/cpp_clock/environment/path.sh

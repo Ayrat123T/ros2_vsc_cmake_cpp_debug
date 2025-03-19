@@ -1,0 +1,31 @@
+[0.041s] Invoking command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock -- -j4 -l4
+[0.434s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[0.444s] [ 75%] Built target talker
+[10.193s] [01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/src/subscriber_lambda_function.cpp:[m[K In lambda function:
+[10.193s] [01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/src/subscriber_lambda_function.cpp:28:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.193s]    28 |       [this]([01;35m[Kstd_msgs::msg::String::UniquePtr msg[m[K) -> void {
+[10.194s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[42.170s] [100%] [32m[1mLinking CXX executable listener[0m
+[43.123s] [100%] Built target listener
+[43.163s] Invoked command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock -- -j4 -l4
+[43.204s] Invoking command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock
+[43.248s] -- Install configuration: "RelWithDebInfo"
+[43.252s] -- Execute custom install script
+[43.253s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/lib/cpp_clock/talker
+[43.255s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/lib/cpp_clock/listener
+[43.259s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/ament_index/resource_index/package_run_dependencies/cpp_clock
+[43.261s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/ament_index/resource_index/parent_prefix_path/cpp_clock
+[43.261s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/ament_prefix_path.sh
+[43.261s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/ament_prefix_path.dsv
+[43.262s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/path.sh
+[43.267s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/path.dsv
+[43.267s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.bash
+[43.269s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.sh
+[43.269s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.zsh
+[43.269s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.dsv
+[43.269s] -- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/package.dsv
+[43.330s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/ament_index/resource_index/packages/cpp_clock
+[43.331s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/cmake/cpp_clockConfig.cmake
+[43.331s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/cmake/cpp_clockConfig-version.cmake
+[43.331s] -- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/package.xml
+[43.344s] Invoked command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock

@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (5.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/build/cpp_clock
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/src/subscriber_lambda_function.cpp:[m[K In lambda function:
+[01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/src/subscriber_lambda_function.cpp:28:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 |       [this]([01;35m[Kstd_msgs::msg::String::UniquePtr msg[m[K) -> void {
+      |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/lib/cpp_clock/talker
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/lib/cpp_clock/listener
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/ament_index/resource_index/package_run_dependencies/cpp_clock
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/ament_index/resource_index/parent_prefix_path/cpp_clock
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/ament_prefix_path.sh
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/path.sh
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/path.dsv
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.bash
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.sh
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.zsh
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.dsv
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/package.dsv
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/ament_index/resource_index/packages/cpp_clock
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/cmake/cpp_clockConfig.cmake
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/cmake/cpp_clockConfig-version.cmake
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/package.xml

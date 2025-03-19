@@ -1,0 +1,4 @@
+[01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/src/subscriber_lambda_function.cpp:[m[K In lambda function:
+[01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/src/subscriber_lambda_function.cpp:28:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 |       [this]([01;35m[Kstd_msgs::msg::String::UniquePtr msg[m[K) -> void {
+      |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

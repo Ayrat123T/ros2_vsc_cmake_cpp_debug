@@ -1,0 +1,27 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[ 75%] Built target talker
+[01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/src/subscriber_lambda_function.cpp:[m[K In lambda function:
+[01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_clock/src/subscriber_lambda_function.cpp:28:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 |       [this]([01;35m[Kstd_msgs::msg::String::UniquePtr msg[m[K) -> void {
+      |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/lib/cpp_clock/talker
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/lib/cpp_clock/listener
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/ament_index/resource_index/package_run_dependencies/cpp_clock
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/ament_index/resource_index/parent_prefix_path/cpp_clock
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/path.sh
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/environment/path.dsv
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.bash
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.sh
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.zsh
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/local_setup.dsv
+-- Symlinking: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/package.dsv
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/ament_index/resource_index/packages/cpp_clock
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/cmake/cpp_clockConfig.cmake
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/cmake/cpp_clockConfig-version.cmake
+-- Up-to-date symlink: /home/ros-user/ros2_jazzy/src/ros2/cpp_clock/install/cpp_clock/share/cpp_clock/package.xml
