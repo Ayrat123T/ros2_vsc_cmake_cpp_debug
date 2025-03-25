@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-42b78d8603dd72f9c364.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "serial_listener",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_listener-5652cd3f51bc4dbff73d.json",
+					"name" : "serial_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_listener_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_listener_uninstall-9d195beae43f60861846.json",
+					"name" : "serial_listener_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "seriallistener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-seriallistener-e211bdcf99a13f920206.json",
+					"name" : "seriallistener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8bcc64d4ca59db19e4d7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener",
+		"source" : "/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

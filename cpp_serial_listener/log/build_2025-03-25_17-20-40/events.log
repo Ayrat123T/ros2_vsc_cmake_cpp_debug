@@ -1,0 +1,344 @@
+[0.000000] (-) TimerEvent: {}
+[0.002483] (serial_listener) JobQueued: {'identifier': 'serial_listener', 'dependencies': OrderedDict()}
+[0.004762] (serial_listener) JobStarted: {'identifier': 'serial_listener'}
+[0.027012] (serial_listener) JobProgress: {'identifier': 'serial_listener', 'progress': 'cmake'}
+[0.029073] (serial_listener) Command: {'cmd': ['/usr/bin/cmake', '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener', '-DCMAKE_INSTALL_PREFIX=/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener'], 'cwd': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ru_RU:en', 'USER': 'ros-user', 'LC_TIME': 'en_US.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/ros-user/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/187/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros-user', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.98.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/187/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/ros-user/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/187/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/187/usr/share/code/code', 'MANAGERPID': '2018', 'SYSTEMD_EXEC_PID': '2232', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14955', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros-user', 'JOURNAL_STREAM': '9:30840', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'ros-user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros-user:@/tmp/.ICE-unix/2197,unix/ros-user:/tmp/.ICE-unix/2197', 'GTK_EXE_PREFIX': '/snap/code/187/usr', 'INVOCATION_ID': '5d1b0cef4a2048b7895d1f947765c8a8', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/187/usr/lib/locale', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/ros-user/snap/code/187/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G8CH42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1a4de7e6e2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/ros-user/snap/code/187/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/ros-user/snap/code/187/.local/share:/home/ros-user/snap/code/187:/snap/code/187/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.102531] (-) TimerEvent: {}
+[0.203657] (-) TimerEvent: {}
+[0.304544] (-) TimerEvent: {}
+[0.406616] (-) TimerEvent: {}
+[0.509390] (-) TimerEvent: {}
+[0.526928] (serial_listener) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.611670] (-) TimerEvent: {}
+[0.712286] (-) TimerEvent: {}
+[0.813257] (-) TimerEvent: {}
+[0.914951] (-) TimerEvent: {}
+[0.918657] (serial_listener) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.020671] (-) TimerEvent: {}
+[1.037640] (serial_listener) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.122836] (-) TimerEvent: {}
+[1.225809] (-) TimerEvent: {}
+[1.326843] (-) TimerEvent: {}
+[1.429311] (-) TimerEvent: {}
+[1.444455] (serial_listener) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.490384] (serial_listener) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.493262] (serial_listener) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.495880] (serial_listener) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.528481] (serial_listener) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.529431] (-) TimerEvent: {}
+[1.630026] (-) TimerEvent: {}
+[1.731227] (-) TimerEvent: {}
+[1.835303] (-) TimerEvent: {}
+[1.921572] (serial_listener) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.935587] (-) TimerEvent: {}
+[1.959608] (serial_listener) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.961758] (serial_listener) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.963669] (serial_listener) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.010233] (serial_listener) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.035810] (-) TimerEvent: {}
+[2.139590] (-) TimerEvent: {}
+[2.240907] (-) TimerEvent: {}
+[2.343623] (-) TimerEvent: {}
+[2.447956] (-) TimerEvent: {}
+[2.552886] (-) TimerEvent: {}
+[2.655343] (-) TimerEvent: {}
+[2.700740] (serial_listener) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.756220] (-) TimerEvent: {}
+[2.857839] (-) TimerEvent: {}
+[2.960141] (-) TimerEvent: {}
+[3.062597] (-) TimerEvent: {}
+[3.165679] (-) TimerEvent: {}
+[3.199471] (serial_listener) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[3.265932] (-) TimerEvent: {}
+[3.367806] (-) TimerEvent: {}
+[3.469492] (-) TimerEvent: {}
+[3.512024] (serial_listener) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.571214] (-) TimerEvent: {}
+[3.594004] (serial_listener) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.672257] (-) TimerEvent: {}
+[3.732515] (serial_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.773116] (-) TimerEvent: {}
+[3.849585] (serial_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.876086] (-) TimerEvent: {}
+[3.978103] (-) TimerEvent: {}
+[4.079521] (-) TimerEvent: {}
+[4.180925] (-) TimerEvent: {}
+[4.282411] (-) TimerEvent: {}
+[4.339865] (serial_listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.358633] (serial_listener) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.383286] (-) TimerEvent: {}
+[4.485743] (-) TimerEvent: {}
+[4.588062] (-) TimerEvent: {}
+[4.691139] (-) TimerEvent: {}
+[4.745770] (serial_listener) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[4.795356] (-) TimerEvent: {}
+[4.823368] (serial_listener) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[4.895539] (-) TimerEvent: {}
+[4.918582] (serial_listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.998863] (-) TimerEvent: {}
+[5.101130] (-) TimerEvent: {}
+[5.202066] (-) TimerEvent: {}
+[5.305046] (-) TimerEvent: {}
+[5.376466] (serial_listener) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[5.405605] (-) TimerEvent: {}
+[5.456658] (serial_listener) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.506559] (-) TimerEvent: {}
+[5.608386] (-) TimerEvent: {}
+[5.709920] (-) TimerEvent: {}
+[5.810524] (-) TimerEvent: {}
+[5.914025] (-) TimerEvent: {}
+[5.969342] (serial_listener) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.973749] (serial_listener) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/serial/include\n'}
+[5.974156] (serial_listener) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.976307] (serial_listener) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.976597] (serial_listener) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[5.985324] (serial_listener) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.990591] (serial_listener) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.014775] (-) TimerEvent: {}
+[6.022488] (serial_listener) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.022880] (serial_listener) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.034427] (serial_listener) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.056408] (serial_listener) StdoutLine: {'line': b'-- Configuring done (6.0s)\n'}
+[6.107127] (serial_listener) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.115774] (-) TimerEvent: {}
+[6.130662] (serial_listener) StdoutLine: {'line': b'-- Build files have been written to: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener\n'}
+[6.180044] (serial_listener) CommandEnded: {'returncode': 0}
+[6.180964] (serial_listener) JobProgress: {'identifier': 'serial_listener', 'progress': 'build'}
+[6.181023] (serial_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener', '--', '-j4', '-l4'], 'cwd': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ru_RU:en', 'USER': 'ros-user', 'LC_TIME': 'en_US.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/ros-user/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/187/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros-user', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.98.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/187/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/ros-user/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/187/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/187/usr/share/code/code', 'MANAGERPID': '2018', 'SYSTEMD_EXEC_PID': '2232', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14955', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros-user', 'JOURNAL_STREAM': '9:30840', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'ros-user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros-user:@/tmp/.ICE-unix/2197,unix/ros-user:/tmp/.ICE-unix/2197', 'GTK_EXE_PREFIX': '/snap/code/187/usr', 'INVOCATION_ID': '5d1b0cef4a2048b7895d1f947765c8a8', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/187/usr/lib/locale', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/ros-user/snap/code/187/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G8CH42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1a4de7e6e2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/ros-user/snap/code/187/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/ros-user/snap/code/187/.local/share:/home/ros-user/snap/code/187:/snap/code/187/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.217893] (-) TimerEvent: {}
+[6.319125] (-) TimerEvent: {}
+[6.428182] (-) TimerEvent: {}
+[6.446569] (serial_listener) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/serial_listener.dir/serial/src/serial.cc.o\x1b[0m\n'}
+[6.447004] (serial_listener) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/serial_listener.dir/serial/src/impl/unix.cc.o\x1b[0m\n'}
+[6.449993] (serial_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_listener.dir/serial/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[6.529854] (-) TimerEvent: {}
+[6.632394] (-) TimerEvent: {}
+[6.738557] (-) TimerEvent: {}
+[6.847907] (-) TimerEvent: {}
+[6.951830] (-) TimerEvent: {}
+[7.055725] (-) TimerEvent: {}
+[7.193042] (-) TimerEvent: {}
+[7.295821] (-) TimerEvent: {}
+[7.398503] (-) TimerEvent: {}
+[7.456860] (serial_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/serial/src/impl/list_ports/list_ports_linux.cc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::__cxx11::basic_string<char> >\x1b[01;32m\x1b[K glob\x1b[m\x1b[K(const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.458005] (serial_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/serial/src/impl/list_ports/list_ports_linux.cc:66:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.458239] (serial_listener) StderrLine: {'line': b'   66 |     for(int path_index = 0; \x1b[01;35m\x1b[Kpath_index < glob_results.gl_pathc\x1b[m\x1b[K; path_index++)\n'}
+[7.458414] (serial_listener) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.458576] (serial_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/serial/src/impl/list_ports/list_ports_linux.cc:57:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kglob_retval\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.458771] (serial_listener) StderrLine: {'line': b'   57 |     int \x1b[01;35m\x1b[Kglob_retval\x1b[m\x1b[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);\n'}
+[7.459165] (serial_listener) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.470687] (serial_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/serial/src/impl/list_ports/list_ports_linux.cc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[01;32m\x1b[K format\x1b[m\x1b[K(const char*, ...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.473115] (serial_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/serial/src/impl/list_ports/list_ports_linux.cc:246:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.473536] (serial_listener) StderrLine: {'line': b'  246 |         else if( \x1b[01;35m\x1b[Kreturn_value >= buffer_size_bytes\x1b[m\x1b[K )\n'}
+[7.474437] (serial_listener) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.499054] (-) TimerEvent: {}
+[7.603138] (-) TimerEvent: {}
+[7.703852] (-) TimerEvent: {}
+[7.810594] (-) TimerEvent: {}
+[7.912150] (-) TimerEvent: {}
+[8.013313] (-) TimerEvent: {}
+[8.115478] (-) TimerEvent: {}
+[8.217021] (-) TimerEvent: {}
+[8.318425] (-) TimerEvent: {}
+[8.419955] (-) TimerEvent: {}
+[8.521964] (-) TimerEvent: {}
+[8.624454] (-) TimerEvent: {}
+[8.697488] (serial_listener) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libserial_listener.a\x1b[0m\n'}
+[8.725389] (-) TimerEvent: {}
+[8.826394] (-) TimerEvent: {}
+[8.929039] (-) TimerEvent: {}
+[8.981551] (serial_listener) StdoutLine: {'line': b'[ 66%] Built target serial_listener\n'}
+[9.037094] (-) TimerEvent: {}
+[9.051689] (serial_listener) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/seriallistener.dir/src/serial_listener.cpp.o\x1b[0m\n'}
+[9.138025] (-) TimerEvent: {}
+[9.239988] (-) TimerEvent: {}
+[9.342640] (-) TimerEvent: {}
+[9.443718] (-) TimerEvent: {}
+[9.545540] (-) TimerEvent: {}
+[9.649309] (-) TimerEvent: {}
+[9.752545] (-) TimerEvent: {}
+[9.871295] (-) TimerEvent: {}
+[9.974605] (-) TimerEvent: {}
+[10.075768] (-) TimerEvent: {}
+[10.179376] (-) TimerEvent: {}
+[10.280092] (-) TimerEvent: {}
+[10.381858] (-) TimerEvent: {}
+[10.483694] (-) TimerEvent: {}
+[10.584608] (-) TimerEvent: {}
+[10.689858] (-) TimerEvent: {}
+[10.791530] (-) TimerEvent: {}
+[10.893829] (-) TimerEvent: {}
+[10.994981] (-) TimerEvent: {}
+[11.098809] (-) TimerEvent: {}
+[11.203572] (-) TimerEvent: {}
+[11.305215] (-) TimerEvent: {}
+[11.408348] (-) TimerEvent: {}
+[11.509037] (-) TimerEvent: {}
+[11.610621] (-) TimerEvent: {}
+[11.713405] (-) TimerEvent: {}
+[11.814669] (-) TimerEvent: {}
+[11.916211] (-) TimerEvent: {}
+[12.017768] (-) TimerEvent: {}
+[12.118397] (-) TimerEvent: {}
+[12.222134] (-) TimerEvent: {}
+[12.323838] (-) TimerEvent: {}
+[12.428242] (-) TimerEvent: {}
+[12.544775] (-) TimerEvent: {}
+[12.648296] (-) TimerEvent: {}
+[12.753596] (-) TimerEvent: {}
+[12.858602] (-) TimerEvent: {}
+[12.960953] (-) TimerEvent: {}
+[13.067178] (-) TimerEvent: {}
+[13.169961] (-) TimerEvent: {}
+[13.291574] (-) TimerEvent: {}
+[13.394708] (-) TimerEvent: {}
+[13.502928] (-) TimerEvent: {}
+[13.604571] (-) TimerEvent: {}
+[13.706143] (-) TimerEvent: {}
+[13.807427] (-) TimerEvent: {}
+[13.908172] (-) TimerEvent: {}
+[14.009165] (-) TimerEvent: {}
+[14.112930] (-) TimerEvent: {}
+[14.213981] (-) TimerEvent: {}
+[14.317235] (-) TimerEvent: {}
+[14.418086] (-) TimerEvent: {}
+[14.518748] (-) TimerEvent: {}
+[14.620343] (-) TimerEvent: {}
+[14.721414] (-) TimerEvent: {}
+[14.829571] (-) TimerEvent: {}
+[14.933290] (-) TimerEvent: {}
+[15.055567] (-) TimerEvent: {}
+[15.164544] (-) TimerEvent: {}
+[15.265494] (-) TimerEvent: {}
+[15.367217] (-) TimerEvent: {}
+[15.468023] (-) TimerEvent: {}
+[15.569309] (-) TimerEvent: {}
+[15.670597] (-) TimerEvent: {}
+[15.772068] (-) TimerEvent: {}
+[15.874755] (-) TimerEvent: {}
+[15.976049] (-) TimerEvent: {}
+[16.077523] (-) TimerEvent: {}
+[16.178657] (-) TimerEvent: {}
+[16.281372] (-) TimerEvent: {}
+[16.382819] (-) TimerEvent: {}
+[16.484025] (-) TimerEvent: {}
+[16.585908] (-) TimerEvent: {}
+[16.687262] (-) TimerEvent: {}
+[16.789185] (-) TimerEvent: {}
+[16.890032] (-) TimerEvent: {}
+[16.991574] (-) TimerEvent: {}
+[17.095314] (-) TimerEvent: {}
+[17.197057] (-) TimerEvent: {}
+[17.298530] (-) TimerEvent: {}
+[17.399555] (-) TimerEvent: {}
+[17.507917] (-) TimerEvent: {}
+[17.609668] (-) TimerEvent: {}
+[17.710831] (-) TimerEvent: {}
+[17.812361] (-) TimerEvent: {}
+[17.915422] (-) TimerEvent: {}
+[18.017578] (-) TimerEvent: {}
+[18.119122] (-) TimerEvent: {}
+[18.220977] (-) TimerEvent: {}
+[18.323522] (-) TimerEvent: {}
+[18.424766] (-) TimerEvent: {}
+[18.527066] (-) TimerEvent: {}
+[18.628589] (-) TimerEvent: {}
+[18.730253] (-) TimerEvent: {}
+[18.830814] (-) TimerEvent: {}
+[18.935650] (-) TimerEvent: {}
+[19.041815] (-) TimerEvent: {}
+[19.145608] (-) TimerEvent: {}
+[19.246594] (-) TimerEvent: {}
+[19.348804] (-) TimerEvent: {}
+[19.449773] (-) TimerEvent: {}
+[19.551363] (-) TimerEvent: {}
+[19.652971] (-) TimerEvent: {}
+[19.754045] (-) TimerEvent: {}
+[19.887066] (-) TimerEvent: {}
+[19.989474] (-) TimerEvent: {}
+[20.098652] (-) TimerEvent: {}
+[20.199411] (-) TimerEvent: {}
+[20.303638] (-) TimerEvent: {}
+[20.404366] (-) TimerEvent: {}
+[20.505758] (-) TimerEvent: {}
+[20.607506] (-) TimerEvent: {}
+[20.709317] (-) TimerEvent: {}
+[20.815714] (-) TimerEvent: {}
+[20.918803] (-) TimerEvent: {}
+[21.023892] (-) TimerEvent: {}
+[21.126077] (-) TimerEvent: {}
+[21.229151] (-) TimerEvent: {}
+[21.337994] (-) TimerEvent: {}
+[21.440220] (-) TimerEvent: {}
+[21.545585] (-) TimerEvent: {}
+[21.651081] (-) TimerEvent: {}
+[21.753472] (-) TimerEvent: {}
+[21.854416] (-) TimerEvent: {}
+[21.956102] (-) TimerEvent: {}
+[22.058277] (-) TimerEvent: {}
+[22.161108] (-) TimerEvent: {}
+[22.263234] (-) TimerEvent: {}
+[22.387779] (-) TimerEvent: {}
+[22.490038] (-) TimerEvent: {}
+[22.591664] (-) TimerEvent: {}
+[22.692475] (-) TimerEvent: {}
+[22.794979] (-) TimerEvent: {}
+[22.906791] (-) TimerEvent: {}
+[23.007713] (-) TimerEvent: {}
+[23.108624] (-) TimerEvent: {}
+[23.209468] (-) TimerEvent: {}
+[23.310548] (-) TimerEvent: {}
+[23.411872] (-) TimerEvent: {}
+[23.513722] (-) TimerEvent: {}
+[23.614347] (-) TimerEvent: {}
+[23.719551] (-) TimerEvent: {}
+[23.823824] (-) TimerEvent: {}
+[23.925566] (-) TimerEvent: {}
+[24.026715] (-) TimerEvent: {}
+[24.127625] (-) TimerEvent: {}
+[24.229377] (-) TimerEvent: {}
+[24.270536] (serial_listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable seriallistener\x1b[0m\n'}
+[24.335900] (-) TimerEvent: {}
+[24.437092] (-) TimerEvent: {}
+[24.540237] (-) TimerEvent: {}
+[24.640804] (-) TimerEvent: {}
+[24.760625] (-) TimerEvent: {}
+[24.862277] (-) TimerEvent: {}
+[24.964282] (-) TimerEvent: {}
+[25.066332] (-) TimerEvent: {}
+[25.184638] (-) TimerEvent: {}
+[25.280512] (serial_listener) StdoutLine: {'line': b'[100%] Built target seriallistener\n'}
+[25.285316] (-) TimerEvent: {}
+[25.322832] (serial_listener) CommandEnded: {'returncode': 0}
+[25.323635] (serial_listener) JobProgress: {'identifier': 'serial_listener', 'progress': 'install'}
+[25.378538] (serial_listener) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener'], 'cwd': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ru_RU:en', 'USER': 'ros-user', 'LC_TIME': 'en_US.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/ros-user/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/187/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros-user', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.98.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/187/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/ros-user/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/187/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/187/usr/share/code/code', 'MANAGERPID': '2018', 'SYSTEMD_EXEC_PID': '2232', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14955', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros-user', 'JOURNAL_STREAM': '9:30840', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'ros-user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros-user:@/tmp/.ICE-unix/2197,unix/ros-user:/tmp/.ICE-unix/2197', 'GTK_EXE_PREFIX': '/snap/code/187/usr', 'INVOCATION_ID': '5d1b0cef4a2048b7895d1f947765c8a8', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/187/usr/lib/locale', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/ros-user/snap/code/187/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G8CH42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1a4de7e6e2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/ros-user/snap/code/187/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/ros-user/snap/code/187/.local/share:/home/ros-user/snap/code/187:/snap/code/187/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[25.388343] (-) TimerEvent: {}
+[25.416846] (serial_listener) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.420287] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/lib/libserial_listener.a\n'}
+[25.423988] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/lib/serial_listener/seriallistener\n'}
+[25.426321] (serial_listener) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/lib/serial_listener/seriallistener" to ""\n'}
+[25.426998] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/serial/include/serial/serial.h\n'}
+[25.427399] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/serial/include/serial/v8stdint.h\n'}
+[25.428998] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/environment/library_path.sh\n'}
+[25.433094] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/environment/library_path.dsv\n'}
+[25.435652] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/ament_index/resource_index/package_run_dependencies/serial_listener\n'}
+[25.436728] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/ament_index/resource_index/parent_prefix_path/serial_listener\n'}
+[25.437152] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/environment/ament_prefix_path.sh\n'}
+[25.439081] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/environment/ament_prefix_path.dsv\n'}
+[25.439577] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/environment/path.sh\n'}
+[25.439795] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/environment/path.dsv\n'}
+[25.443782] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/local_setup.bash\n'}
+[25.444082] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/local_setup.sh\n'}
+[25.444268] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/local_setup.zsh\n'}
+[25.450785] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/local_setup.dsv\n'}
+[25.451177] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/package.dsv\n'}
+[25.451392] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/ament_index/resource_index/packages/serial_listener\n'}
+[25.452450] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[25.458566] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[25.458824] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/cmake/serial_listenerConfig.cmake\n'}
+[25.458995] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/cmake/serial_listenerConfig-version.cmake\n'}
+[25.459217] (serial_listener) StdoutLine: {'line': b'-- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/package.xml\n'}
+[25.465536] (serial_listener) CommandEnded: {'returncode': 0}
+[25.489284] (-) TimerEvent: {}
+[25.535022] (serial_listener) JobEnded: {'identifier': 'serial_listener', 'rc': 0}
+[25.540121] (-) EventReactorShutdown: {}

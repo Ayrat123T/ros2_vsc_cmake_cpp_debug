@@ -1,0 +1,89 @@
+[0.027s] Invoking command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener -DCMAKE_INSTALL_PREFIX=/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener
+[0.523s] -- The C compiler identification is GNU 13.3.0
+[0.914s] -- The CXX compiler identification is GNU 13.3.0
+[1.033s] -- Detecting C compiler ABI info
+[1.440s] -- Detecting C compiler ABI info - done
+[1.486s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.489s] -- Detecting C compile features
+[1.491s] -- Detecting C compile features - done
+[1.524s] -- Detecting CXX compiler ABI info
+[1.917s] -- Detecting CXX compiler ABI info - done
+[1.955s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.957s] -- Detecting CXX compile features
+[1.959s] -- Detecting CXX compile features - done
+[2.006s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.696s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.195s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.508s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.590s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.728s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.845s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.335s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.354s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.741s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.819s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.914s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.373s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[5.452s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.966s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.969s] -- Configured cppcheck include dirs: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/serial/include
+[5.970s] -- Configured cppcheck exclude dirs and/or files: 
+[5.972s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.972s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.981s] -- Added test 'lint_cmake' to check CMake code style
+[5.986s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.018s] -- Added test 'uncrustify' to check C / C++ code style
+[6.018s] -- Configured uncrustify additional arguments: 
+[6.030s] -- Added test 'xmllint' to check XML markup files
+[6.052s] -- Configuring done (6.0s)
+[6.103s] -- Generating done (0.0s)
+[6.126s] -- Build files have been written to: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener
+[6.176s] Invoked command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener -DCMAKE_INSTALL_PREFIX=/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener
+[6.177s] Invoking command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener -- -j4 -l4
+[6.442s] [ 16%] [32mBuilding CXX object CMakeFiles/serial_listener.dir/serial/src/serial.cc.o[0m
+[6.442s] [ 33%] [32mBuilding CXX object CMakeFiles/serial_listener.dir/serial/src/impl/unix.cc.o[0m
+[6.445s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_listener.dir/serial/src/impl/list_ports/list_ports_linux.cc.o[0m
+[7.453s] [01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/serial/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[01;32m[K glob[m[K(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[7.453s] [01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/serial/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.454s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[7.454s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.454s] [01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/serial/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[7.454s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[7.454s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[7.468s] [01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/serial/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string[01;32m[K format[m[K(const char*, ...)[m[K’:
+[7.469s] [01m[K/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/serial/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.469s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[7.470s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[8.693s] [ 66%] [32m[1mLinking CXX static library libserial_listener.a[0m
+[8.977s] [ 66%] Built target serial_listener
+[9.047s] [ 83%] [32mBuilding CXX object CMakeFiles/seriallistener.dir/src/serial_listener.cpp.o[0m
+[24.266s] [100%] [32m[1mLinking CXX executable seriallistener[0m
+[25.276s] [100%] Built target seriallistener
+[25.318s] Invoked command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener -- -j4 -l4
+[25.374s] Invoking command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener
+[25.412s] -- Install configuration: ""
+[25.416s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/lib/libserial_listener.a
+[25.419s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/lib/serial_listener/seriallistener
+[25.422s] -- Set non-toolchain portion of runtime path of "/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/lib/serial_listener/seriallistener" to ""
+[25.422s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/serial/include/serial/serial.h
+[25.423s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/serial/include/serial/v8stdint.h
+[25.424s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/environment/library_path.sh
+[25.428s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/environment/library_path.dsv
+[25.431s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/ament_index/resource_index/package_run_dependencies/serial_listener
+[25.432s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/ament_index/resource_index/parent_prefix_path/serial_listener
+[25.432s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/environment/ament_prefix_path.sh
+[25.435s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/environment/ament_prefix_path.dsv
+[25.435s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/environment/path.sh
+[25.439s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/environment/path.dsv
+[25.439s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/local_setup.bash
+[25.439s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/local_setup.sh
+[25.440s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/local_setup.zsh
+[25.446s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/local_setup.dsv
+[25.446s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/package.dsv
+[25.448s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/ament_index/resource_index/packages/serial_listener
+[25.454s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.454s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/cmake/ament_cmake_export_libraries-extras.cmake
+[25.454s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/cmake/serial_listenerConfig.cmake
+[25.454s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/cmake/serial_listenerConfig-version.cmake
+[25.454s] -- Installing: /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/install/serial_listener/share/serial_listener/package.xml
+[25.461s] Invoked command in '/home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros-user/ros2_jazzy/src/ros2/cpp_serial_listener/build/serial_listener

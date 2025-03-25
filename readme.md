@@ -4,4 +4,4 @@
 ## [1-й вариант настройки отладки через gdbserver](resources/first_debug_variant.md)
 ## [2-й вариант настройки отладки](resources/second_debug_variant.md)
 ## [Паральлельная отладка НОД в одной рабочей области VScode](resources/parallel_debug.md)
-## Проект 
+## [Создание и запуск с++ com-serial монитора порта на ROS2](cpp_serial_listener/readme.md)

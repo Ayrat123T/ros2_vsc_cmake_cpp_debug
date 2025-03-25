@@ -13,10 +13,10 @@
 // limitations under the License.
 
 #include <memory>
+#include <ctime>
 
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
-#include <ctime>
 
 class MinimalSubscriber : public rclcpp::Node
 {
@@ -28,12 +28,8 @@ public:
       [this](std_msgs::msg::String::UniquePtr msg) -> void {
         counter_++;
         if (counter_ == 20) {
-          /*printf("%.2d:%.2d:%.2d\n", t.tm_hour, t.tm_min, t.tm_sec);
-          tm current_time = *localtime(&t_);
-          real_second_count_ = current_time.tm_sec - */
           counter_ = 0;
           second_count_++;
-          //RCLCPP_INFO(this->get_logger(), "I count, s: '%lu'", second_count_);
           RCLCPP_INFO(this->get_logger(), "current time, s: '%lu'", second_count_);
         }
       };
@@ -45,8 +41,6 @@ private:
   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
   size_t counter_ = 0;
   size_t second_count_ = 0;
-  /*size_t real_second_count_ = 0;
-  time_t t_ = time(NULL);*/
 
 };
 

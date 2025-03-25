@@ -1,0 +1,2 @@
+/usr/bin/ar qc libserial_listener.a CMakeFiles/serial_listener.dir/serial/src/serial.cc.o CMakeFiles/serial_listener.dir/serial/src/impl/unix.cc.o CMakeFiles/serial_listener.dir/serial/src/impl/list_ports/list_ports_linux.cc.o
+/usr/bin/ranlib libserial_listener.a
