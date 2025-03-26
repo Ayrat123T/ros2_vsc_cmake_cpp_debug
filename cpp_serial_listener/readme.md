@@ -1,4 +1,4 @@
-# Создание и запуск с++ com-serial монитора порта на ROS2  
+# Подключение сторонней библиотеки на примере [с++ монитора com-serial порта на ROS2](../cpp_serial_listener)
 
 ### 1. перед запуском выполнить скрипт
 ```bash
@@ -8,7 +8,7 @@ source /opt/ros/jazzy/setup.bash
 ```bash
 git clone https://github.com/wjwwood/serial.git
 ```
-### 3. запускаем сборку проекта, предварительно настроив [CMakeLists.txt](CMakeLists.txt)
+### 3. запускаем сборку [проекта](../cpp_serial_listener), предварительно настроив [CMakeLists.txt](CMakeLists.txt)
 ```bash
 colcon build --packages-select serial_listener
 ```
@@ -17,10 +17,10 @@ colcon build --packages-select serial_listener
 . install/setup.bash
 ```
 ### 5. запускаем проект, убедившись, что наше устройство имеет имя "ttyUSB0" (если нет - идём в [исходники](src/serial_listener.cpp) и меняем serial_port_.setPort в 17-й строчке)
+```bash
 sudo ./build/serial_listener/seriallistener
 ```
-sudo chown :second_user /dev/ttyUSB0
-```
+
 ## Примечание 1
 ### Что бы в текущей сессии работать с serial портом без sudo необходимо прописать:
 ```bash
